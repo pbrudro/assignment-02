@@ -1,0 +1,155 @@
+/* font styles
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap'); */
+
+
+/* .body {
+  font-family: 'Work Sans', sans-serif;
+} */
+
+/* header styles  */
+
+.header {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* top header styles  */
+
+.top-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.primary-heading {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+
+.top-nav li {
+  display: flex;
+  color: #424242;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* bottom header styles */
+
+.bottom-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.heading-container {
+  width: 40%;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+}
+
+.heading-description {
+  color: #727272;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.primary-btn {
+  background-color: #FF900E;
+  border-radius: 8px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 21px;
+  margin-top: 32px;
+}
+
+.banner {
+  width: 70%;
+  margin: 50px 0 45px 0;
+}
+
+/* quick list section styles */
+.quick-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 85px;
+}
+
+.quick-list-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-right: 73px;
+}
+
+.quick-list-image img {
+  width: 100%;
+}
+
+.quick-list-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 25%;
+}
+
+.quick-list-heading,
+.primary-heading,
+.heading-description {
+  text-align: left;
+}
+
+.primary-heading-quick-list {
+  color: #727272;
+}
+
+.primary-heading-features {
+  color: #FF900E;
+}
+
+/* Features sections */
+.features-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+
+}
+
+
+.features-left-side {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-right: 130px;
+}
+
+.features-left-side .primary-heading {
+  display: flex;
+}
+
+.vl {
+  border-left: 6px solid #FF900E;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.feature {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+
+.banner {
+  width: 70%;
+}
