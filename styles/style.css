@@ -126,11 +126,10 @@
 
 }
 
-
 .features-left-side {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 35%;
   margin-right: 130px;
 }
 
@@ -148,8 +147,38 @@
   background: #FFFFFF;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
   border-radius: 8px;
+  padding: 30px;
 }
 
-.banner {
-  width: 70%;
+.feature h4 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.features-right-side {
+  width: 40%;
+}
+
+.features-right-side .banner {
+  width: 100%;
+}
+
+.features-down-button {
+  position: relative;
+  left: 850px;
+  top: -200px;
+}
+
+.features-down-button .primary-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+  font-size: 65px;
+
+}
+
+.features-down-button .experience-btn {
+  font-weight: 500;
+  font-size: 25px;
 }
