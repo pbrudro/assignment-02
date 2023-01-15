@@ -4,9 +4,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
 
 /* Common Styles */
-
 body {
   font-family: 'Work Sans', sans-serif;
+  margin: 0;
+}
+
+main {
+  margin: 0 150px;
 }
 
 /* header styles  */
@@ -21,7 +25,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
 .primary-heading {
@@ -132,7 +135,7 @@ body {
 .features-left-side {
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 50%;
   margin-right: 130px;
 }
 
@@ -159,7 +162,7 @@ body {
 }
 
 .features-right-side {
-  width: 40%;
+  width: 50%;
 }
 
 .features-right-side .banner {
@@ -186,7 +189,9 @@ body {
 }
 
 /* Facts Sections */
-.facts {}
+.facts {
+  
+}
 
 /* Boxes  */
 .boxes {
@@ -210,7 +215,7 @@ body {
 /* sponsors logo */
 .sponsor-logo {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 
 }
@@ -220,11 +225,13 @@ footer {
   background-color: #FFF4E7;
   border-radius: 8px;
   width: 70%;
+  margin: 0 250px;
 }
 
-.footer-description {
+footer .footer-description {
   color: #424242;
   font-weight: 400;
   font-size: 20px;
   text-align: center;
+  padding: 39px 0;
 }
