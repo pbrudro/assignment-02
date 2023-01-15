@@ -109,9 +109,7 @@ main {
   width: 25%;
 }
 
-.quick-list-heading,
-.primary-heading,
-.heading-description {
+.quick-list-heading .heading-description {
   text-align: left;
 }
 
@@ -135,12 +133,8 @@ main {
 .features-left-side {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  margin-right: 130px;
-}
-
-.features-left-side .primary-heading {
-  display: flex;
+  width: 100%;
+  padding-right: 130px;
 }
 
 .vl {
@@ -153,16 +147,15 @@ main {
   background: #FFFFFF;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
   border-radius: 8px;
-  padding: 30px;
+  
 }
 
 .feature h4 {
   font-weight: 600;
   font-size: 20px;
 }
-
-.features-right-side {
-  width: 50%;
+.features-left-side .heading-description{
+  text-align: left;
 }
 
 .features-right-side .banner {
@@ -189,12 +182,14 @@ main {
 }
 
 /* Facts Sections */
-.facts {}
-
+.facts .heading-description{
+  text-align: left;
+}
 /* Boxes  */
 .boxes {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .box {
@@ -202,7 +197,6 @@ main {
   border-radius: 8px;
   text-align: center;
   width: 241.83px;
-  height: 241.83px;
 }
 
 .box h3 {
@@ -211,19 +205,39 @@ main {
 }
 
 /* sponsors logo */
+.sponsors{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sponsors .primary-heading{
+  margin-bottom: 0;
+}
+.sponsors .heading-description{
+  margin: 24px;
+  width: 50%;
+}
 .sponsor-logo {
   display: flex;
-  justify-content: space-between;
+  margin-top: 50px;
+}
+.sponsor-logo .logo{
+  display: flex;
+  justify-content: space-be;
   align-items: center;
-
+}
+.logo img{
+  width: 50%;
 }
 
 /* Footer styles */
 footer {
+  display: flex;
+  justify-content: center;
   background-color: #FFF4E7;
   border-radius: 8px;
-  width: 70%;
-  margin: 0 250px;
+  margin: 130px 150px;
 }
 
 footer .footer-description {
@@ -231,7 +245,7 @@ footer .footer-description {
   font-weight: 400;
   font-size: 20px;
   text-align: center;
-  padding: 39px 0;
+  padding: 19px 0;
 }
 
 /* Responsive  */
