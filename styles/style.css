@@ -76,9 +76,11 @@ main {
   padding: 21px;
   margin-top: 32px;
 }
-
+.main-banner{
+  margin: 0 150px;
+}
 .banner {
-  width: 70%;
+  width: 100%;
   margin: 50px 0 45px 0;
 }
 
@@ -127,14 +129,12 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: 130px;
-
 }
 
 .features-left-side {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  padding-right: 130px;
+  width: 50%;
 }
 
 .vl {
@@ -159,13 +159,17 @@ main {
 }
 
 .features-right-side .banner {
-  width: 100%;
+  width: 90%;
+  margin-left: 100px;
+  margin-right: 0;
 }
 
 .features-down-button {
-  position: relative;
-  left: 850px;
-  top: -200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: -162px 70px 0 200px;
+  padding: 22px;
 }
 
 .features-down-button .primary-btn {
@@ -174,6 +178,7 @@ main {
   align-items: center;
   font-weight: 700;
   font-size: 65px;
+  margin: 0;
 }
 
 .features-down-button .experience-btn {
@@ -187,16 +192,18 @@ main {
 }
 /* Boxes  */
 .boxes {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-column-gap: 114px;
+  margin-top: 100px;
 }
 
 .box {
   border: 1px solid #FF900E;
   border-radius: 8px;
   text-align: center;
-  width: 241.83px;
+  width: 125%;
+  height: 100%;
 }
 
 .box h3 {
@@ -213,6 +220,7 @@ main {
 }
 .sponsors .primary-heading{
   margin-bottom: 0;
+  margin-top: 135px;
 }
 .sponsors .heading-description{
   margin: 24px;
