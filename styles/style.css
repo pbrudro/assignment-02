@@ -1,10 +1,13 @@
-/* font styles
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap'); */
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
 
+/* Common Styles */
 
-/* .body {
+body {
   font-family: 'Work Sans', sans-serif;
-} */
+}
 
 /* header styles  */
 
@@ -175,10 +178,53 @@
   align-items: center;
   font-weight: 700;
   font-size: 65px;
-
 }
 
 .features-down-button .experience-btn {
   font-weight: 500;
   font-size: 25px;
+}
+
+/* Facts Sections */
+.facts {}
+
+/* Boxes  */
+.boxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  border: 1px solid #FF900E;
+  border-radius: 8px;
+  text-align: center;
+  width: 241.83px;
+  height: 241.83px;
+}
+
+.box h3 {
+  font-weight: 600;
+  font-size: 45px;
+}
+
+/* sponsors logo */
+.sponsor-logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+/* Footer styles */
+footer {
+  background-color: #FFF4E7;
+  border-radius: 8px;
+  width: 70%;
+}
+
+.footer-description {
+  color: #424242;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
 }
